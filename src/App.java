@@ -12,6 +12,17 @@ public class App {
                 new TimeCell(
                     new GreenCell(),
                     4000
+                ),
+                new BlinkCell(
+                    new TimeCell(
+                        new GreenCell(),
+                        300
+                    ),
+                    3
+                ),
+                new TimeCell(
+                    new YellowCell(),
+                    1000
                 )
         ).run();
     }
