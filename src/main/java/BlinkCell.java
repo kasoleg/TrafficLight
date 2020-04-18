@@ -1,4 +1,4 @@
-public class BlinkCell implements Cell {
+public final class BlinkCell implements Cell {
 
     private final Cell cell;
     private final int count;

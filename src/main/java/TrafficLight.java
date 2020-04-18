@@ -1,4 +1,4 @@
-public class TrafficLight {
+public final class TrafficLight {
     private final Cell[] cells;
     public TrafficLight(Cell... cells) {
         this.cells = cells;

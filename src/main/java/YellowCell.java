@@ -1,4 +1,4 @@
-public class YellowCell implements Cell {
+public final class YellowCell implements Cell {
     @Override
     public void run() {
         System.out.println("yellow");

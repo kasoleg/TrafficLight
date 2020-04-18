@@ -1,4 +1,4 @@
-public class TimeCell implements Cell {
+public final class TimeCell implements Cell {
     private final Cell cell;
     private final int millis;
 
