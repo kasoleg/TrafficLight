@@ -1,5 +1,5 @@
 public class TrafficLight {
-    private Cell[] cells;
+    private final Cell[] cells;
     public TrafficLight(Cell... cells) {
         this.cells = cells;
     }
